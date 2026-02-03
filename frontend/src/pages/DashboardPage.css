@@ -1,0 +1,52 @@
+.dashboard-page__header {
+  margin-bottom: 2rem;
+}
+
+.dashboard-page__welcome {
+  margin: 0.5rem 0 0;
+  color: var(--color-text-muted);
+  font-size: 1rem;
+}
+
+.dashboard-page__section h2 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: var(--color-text-muted);
+}
+
+.dashboard-page__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.dashboard-page__card {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.dashboard-page__card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+  color: inherit;
+}
+
+.dashboard-page__card-icon {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+.dashboard-page__card h3 {
+  margin-bottom: 0.5rem;
+  color: var(--color-accent);
+}
+
+.dashboard-page__card p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+}
